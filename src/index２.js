@@ -6,3 +6,6 @@ console.log(message3);
 const [name, age] = myProfile;
 const message4 = `名前は${name}です。年齢は${age}です。`;
 console.log(message4);
+
+const sayHello = (name = "ゲスト") => console.log(`こんにちは！${name}さん！`);
+sayHello();
