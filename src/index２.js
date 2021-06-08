@@ -9,3 +9,14 @@ console.log(message4);
 
 const sayHello = (name = "ゲスト") => console.log(`こんにちは！${name}さん！`);
 sayHello();
+
+const array = [1, 2, 3, 4, 5, 6, 6, 6, 3, 5, 6];
+console.log(array, "array");
+console.log(...array, "...array");
+
+const array2 = [10, 20, 30];
+const array3 = [90, 80, 70];
+
+const array4 = [...array2];
+const array5 = [...array2, ...array3, ...array4];
+console.log(array5);
