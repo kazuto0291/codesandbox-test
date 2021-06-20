@@ -20,3 +20,11 @@ const array3 = [90, 80, 70];
 const array4 = [...array2];
 const array5 = [...array2, ...array3, ...array4];
 console.log(array5);
+
+const numArray = [1, 2, 3, 4, 5, 6, 7, 8];
+
+const newNumArray = numArray.filter((num) => {
+  return num % 2 === 1;
+});
+
+console.log(newNumArray);
